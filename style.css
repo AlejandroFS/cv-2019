@@ -1092,7 +1092,24 @@ ol.ff-roboto-cn li, ul.ff-roboto-cn li{
 	text-transform: uppercase;
 	line-height: 1.5;
 }
-
+.service-title-2{
+	font-family: 'Dosis', 'Open Sans', 'Sans Serif' !important;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+.service-title-2::after{
+	display: block;
+	content: '';
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 35%;
+	height: 3px;
+	background: #0EB57D !important;
+	border-radius: 30px;
+}
 .service-title::after{
 	display: block;
 	content: '';
@@ -1101,6 +1118,13 @@ ol.ff-roboto-cn li, ul.ff-roboto-cn li{
 	height: 3px;
 	background: red;
 	border-radius: 30px;
+}
+.items-on  li{
+	list-style-type: disclosure-open;
+}
+
+.tech-used{
+	position: relative; float: right; margin-top: 25px;
 }
 
 .service-desc{
